@@ -1,50 +1,112 @@
 .div,
 .div * {
   box-sizing: border-box;
+  
 }
 .div {
   background: var(--m-3-white, #ffffff);
-  padding: 10px;
-  width: 1440px;
+  width: 100vw;
   height: 14979px;
   position: relative;
 }
 .rectangle-5571 {
   background: var(--blue-500, #4495ff);
-  width: 1441px;
+  width: 100vw;
   height: 780px;
   position: absolute;
-  left: calc(50% - 720px);
   top: 0px;
 }
 .rectangle-5572 {
   background: var(--blue-50, #edf7ff);
-  width: 1441px;
+  width: 100vw;
   height: 2385px;
   position: absolute;
-  left: -1px;
   top: 3165px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, -1);
 }
 .rectangle-5570 {
   background: var(--blue-500, #4495ff);
-  width: 1440px;
+  width: 100vw;
   height: 758px;
   position: absolute;
-  left: 0px;
   top: 14267px;
 }
 .work {
   display: flex;
   flex-direction: column;
   gap: 56px;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-start;
-  position: absolute;
-  left: 200px;
+  position: relative;
   top: 120px;
 }
+
+.topbar {
+  width: 100vw;
+  height: 60px;
+  position: absolute;
+  left: 0px;
+  top: 30px;
+  overflow-x: auto;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.gray3 {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  left: 10vw;
+  top: 19px;
+}
+
+.white-background {
+  background: var(--blue-500, #4495ff);
+  width: 100vw;
+  height: 60px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.chevron-bold3 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.back {
+  color: var(--black-white-white, #ffffff);
+  text-align: center;
+  font-family: var(
+    --body-2-14-bd-font-family,
+    "PretendardJpVariable-Bold",
+    sans-serif
+  );
+  font-size: var(--body-2-14-bd-font-size, 14px);
+  line-height: var(--body-2-14-bd-line-height, 160%);
+  font-weight: var(--body-2-14-bd-font-weight, 700);
+  position: relative;
+}
+
+.frame-182 {
+  padding: 0px 10px 0px 10px;
+  position: relative;
+  left: 85vw;
+}
+.home {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+
 .title {
   color: var(--black-white-white, #ffffff);
   text-align: center;
@@ -3141,67 +3203,5 @@
   position: relative;
   overflow: visible;
 }
-.topbar {
-  width: 1440px;
-  height: 60px;
-  position: absolute;
-  left: 0px;
-  top: 30px;
-  overflow-x: auto;
-}
-.white-background {
-  background: var(--blue-500, #4495ff);
-  width: 1440px;
-  height: 60px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-.gray3 {
-  display: flex;
-  flex-direction: row;
-  gap: 2px;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  left: 200px;
-  top: 19px;
-}
-.chevron-bold3 {
-  flex-shrink: 0;
-  width: 16px;
-  height: 16px;
-  position: relative;
-  overflow: visible;
-}
-.back {
-  color: var(--black-white-white, #ffffff);
-  text-align: center;
-  font-family: var(
-    --body-2-14-bd-font-family,
-    "PretendardJpVariable-Bold",
-    sans-serif
-  );
-  font-size: var(--body-2-14-bd-font-size, 14px);
-  line-height: var(--body-2-14-bd-line-height, 160%);
-  font-weight: var(--body-2-14-bd-font-weight, 700);
-  position: relative;
-}
-.frame-182 {
-  padding: 0px 10px 0px 10px;
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  left: 1187px;
-  top: 17px;
-}
-.home {
-  flex-shrink: 0;
-  width: 32px;
-  height: 32px;
-  position: relative;
-  overflow: visible;
-}
+
+
